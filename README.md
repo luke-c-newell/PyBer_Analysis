@@ -7,16 +7,16 @@ This dataframe summarizes the Total Rides, Total Drivers, Total Fares, Average F
 
 ![City_type_df](https://github.com/luke-c-newell/PyBer_Analysis/blob/main/Resources/city_type_df.png)
 ### Multiple line chart of total fares by city type
-This multiple line chart shows the weekly sum of total fares collected for each city type from January 2019 to April 2019. Urban cities saw the highest revenue for each week, with Rural cities seeing the lowest fares over the same period. See code found in the PyBer_Challenge file to understand the method used to create this dataframe.
+This multiple line chart shows the weekly sum of total fares collected for each city type from January 2019 to April 2019. Urban cities saw the highest revenue for each week, with rural cities seeing the lowest fares over the same period. The code found in the PyBer_Challenge file describes the method used to create this chart.
 
 ![PyBer_fare_summary](https://github.com/luke-c-newell/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 ### Differences between data for each city type
 1. Total Rides
-Rural cities saw the lowest number of total rides with 125 whereas urban cities saw the largest number of rides with 1625 which is 13x larger than the number of rural rides. Suburban cities had 5x more rides than rural cities with 625 total rides. 
+Rural cities saw the lowest number of total rides with 125, whereas urban cities saw the largest number of rides with 1625.  This is 13x as many rides when compared to rural cities. Suburban cities had 5x more rides than rural cities with 625 total rides. 
 2. Total Drivers
-Urban cities had the largest number of drivers with 2405 total drivers over the period of the analysis. Suburban cities had 490 drivers but rural cities had the lowest number of drivers with 78.
+Urban cities had the largest number of drivers with 2405 total drivers over the period of the analysis. Suburban cities had 490 drivers whereas rural cities had the lowest number of drivers with 78.
 3. Total Fares
-Urban cities had the highest total fares with $39,854, suburban cities had a total fare volume of $19,356 and rural cities had the lowest total fares with $4,327. This trend matches the trend for total rides and total drivers, which all saw urban cities with the largest total volume.
+Urban cities had the highest total fares with $39,854, suburban cities had a total fare volume of $19,356 and rural cities had the lowest total fares with $4,327. This matches the trend for total rides and total drivers, which all saw urban cities with the largest total volume.
 4. Average Fare per Ride
 In contrast to the three previous metrics, the largest average fare per ride was in rural cities, with an average fare of $34. Suburban cities had an average fare per ride of $30, with urban cities seeing the lowest average fare at $24.
 5. Average Fare per Driver
@@ -26,5 +26,5 @@ Urban cities had the highest weekly total fares, with rural cities showing the l
 ## Summary
 ### Recommendations
 1. As urban cities are the main driver of revenue for PyBer, they present the greatest opportunity for increasing profit at the company. Despite bringing in the greatest volume of revenue, urban cities have the lowest average fare per ride, which may be a result of a shorter distance travelled for each trip.  I would recommend encouraging urban riders to use the service for longer rides by developing promotions that reward longer trips.
-2. Rural cities have the lowest revenue compared to the other city types which presents an opportunity to greatly increase use of the service in rural areas. I would recommend increasing the marketing budget for rural cities to attract both additional customers and drivers to the service. As the number of drivers in rural cities is so low, this may be a limiting factor to increasing the revenue so increasing marketing towards additional drivers is essential. The relatively high average fare per ride of $55 could be used to entice them to sign up as drivers.
+2. Rural cities have the lowest revenue compared to the other city types which presents an opportunity to greatly increase use of the service in rural areas. I would recommend increasing the marketing budget for rural cities to attract both additional customers and drivers to the service. As the number of drivers in rural cities is so low, this may be a limiting factor to increasing the revenue, so increasing marketing towards additional drivers is essential. The relatively high average fare per driver of $55 could be used to entice them to sign up.
 3. Suburban cities are in the middle of the road in all six of the metrics analyzed in this report. Despite this, there are still opportunities to increase the numbers of riders when compared with urban cities. As there is an overpopulation of drivers in urban cities, they could be encouraged to travel to suburban cities to take advantage of the higher average fare per ride in suburban areas. This could increase demand for rides in suburban areas that have a lower number of drivers than urban areas.
