@@ -3,11 +3,11 @@
 My client, PyBer, a large ride-sharing company, has asked me to create a summary dataframe for ride-sharing data by city type (for rural, suburban and urban cities). In addition, they've asked for a multiple-line graph that shows the total weekly fares for each city type for the months of January through April. I've also included a summary of how the data differs by city type and how these findings can be actioned upon by decision-makers at PyBer.
 ## Results
 ### Summary DataFrame
-This dataframe summarizes the Total Rides, Total Drivers, Total Fares, Average Fare per Ride and  Average Fare per Driver for each city type. See code sample below to understand the method used to create this dataframe.
+This dataframe summarizes the Total Rides, Total Drivers, Total Fares, Average Fare per Ride and  Average Fare per Driver for each city type. See code found in the PyBer_Challenge file to understand the method used to create this dataframe.
 
 ![City_type_df](https://github.com/luke-c-newell/PyBer_Analysis/blob/main/Resources/city_type_df.png)
 ### Multiple line chart of total fares by city type
-This multiple line chart shows the weekly sum of total fares collected for each city type from January 2019 to April 2019. Urban cities saw the highest revenue for each week, with Rural cities seeing the lowest fares over the same period. See code sample below to understand the method used to create this chart.
+This multiple line chart shows the weekly sum of total fares collected for each city type from January 2019 to April 2019. Urban cities saw the highest revenue for each week, with Rural cities seeing the lowest fares over the same period. See code found in the PyBer_Challenge file to understand the method used to create this dataframe.
 
 ![PyBer_fare_summary](https://github.com/luke-c-newell/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 ### Differences between data for each city type
